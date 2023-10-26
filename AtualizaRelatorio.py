@@ -1,0 +1,82 @@
+import pyautogui as pe
+import contas
+import time
+import os
+
+pe.hotkey('win', 'd')
+pe.hotkey('win', 'e')
+time.sleep(1)
+pe.hotkey('f4')
+time.sleep(1)
+pe.hotkey('shift', 'home')
+time.sleep(1)
+pe.typewrite('Z:\Marcos\Dev')
+time.sleep(1)
+pe.hotkey('enter')
+time.sleep(1)
+pe.hotkey('down')
+time.sleep(1)
+pe.hotkey('enter')
+#espera o doc abrir
+time.sleep(5)
+pe.hotkey('ctrl', 'home')
+time.sleep(1)
+pe.hotkey('alt')
+time.sleep(1)
+pe.hotkey('c')
+time.sleep(1)
+pe.hotkey('k')
+time.sleep(1)
+pe.hotkey('l')
+time.sleep(1)
+pe.hotkey('ctrl', 't')
+time.sleep(1)
+pe.hotkey('ctrl', 'c')
+time.sleep(1)
+
+#doc 2
+pe.hotkey('alt', 'tab')
+time.sleep(1)
+pe.hotkey('up')
+time.sleep(1)
+pe.hotkey('enter')
+time.sleep(1)
+#espera o doc abrir
+time.sleep(20)
+pe.hotkey('ctrl', 'pageup')
+pe.hotkey('ctrl', 'pageup')
+pe.hotkey('ctrl', 'pageup')
+pe.hotkey('ctrl', 'pageup')
+time.sleep(2)
+pe.hotkey('ctrl', 'home')
+pe.hotkey('right')
+pe.hotkey('right')
+pe.hotkey('right')
+pe.hotkey('right')
+time.sleep(1)
+pe.hotkey('alt')
+time.sleep(1)
+pe.hotkey('c')
+time.sleep(1)
+pe.hotkey('h')
+time.sleep(1)
+pe.hotkey('i')
+time.sleep(1)
+pe.hotkey('e')
+time.sleep(1)
+pe.hotkey('down')
+time.sleep(1)
+pe.hotkey('enter')
+pe.hotkey('ctrl', 'b')
+time.sleep(5)
+pe.hotkey('alt', 'f4')
+time.sleep(1)
+pe.hotkey('ctrl', 'b')
+time.sleep(5)
+pe.hotkey('alt', 'f4')
+
+
+
+
+
+
